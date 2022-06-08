@@ -29,6 +29,17 @@
 		]
 	},
 	{
+		"name": "print",
+		"description": "Prints information about the characters",
+		"options": [
+			{
+				"name": "name",
+				"description": "The name of the character to print. Leave blank to print all characters",
+				"type": 3
+			}
+		]
+	},
+	{
 		"name": "set",
 		"description": "Sets a character's rating, luck, harm, or experience",
 		"options": [
