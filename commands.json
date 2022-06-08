@@ -33,42 +33,61 @@
 		"description": "Sets a character's rating, luck, harm, or experience",
 		"options": [
 			{
-				"name": "ratings",
-				"description": "Sets a character's ratings",
-				"type": 1,
-				"options": [
-					{
-						"name": "name",
-						"description": "The character's name",
-						"type": 3,
-						"required": true
-					},
-					{
-						"name": "charm",
-						"description": "The character's charm rating",
-						"type": 4
-					},
-					{
-						"name": "cool",
-						"description": "The character's cool rating",
-						"type": 4
-					},
-					{
-						"name": "sharp",
-						"description": "The character's sharp rating",
-						"type": 4
-					},
-					{
-						"name": "tough",
-						"description": "The character's tough rating",
-						"type": 4
-					},
-					{
-						"name": "weird",
-						"description": "The character's weird rating",
-						"type": 4
-					}
-				]
+				"name": "name",
+				"description": "The character's name",
+				"type": 3,
+				"required": true
+			},
+			{
+				"name": "charm",
+				"description": "The character's charm rating",
+				"type": 4
+			},
+			{
+				"name": "cool",
+				"description": "The character's cool rating",
+				"type": 4
+			},
+			{
+				"name": "sharp",
+				"description": "The character's sharp rating",
+				"type": 4
+			},
+			{
+				"name": "tough",
+				"description": "The character's tough rating",
+				"type": 4
+			},
+			{
+				"name": "weird",
+				"description": "The character's weird rating",
+				"type": 4
+			},
+			{
+				"name": "class",
+				"description": "The character's class. Don't include the word 'the'",
+				"type": 3
+			},
+			{
+				"name": "luck",
+				"description": "The character's luck",
+				"type": 4,
+				"min_value": 0,
+				"max_value": 7
+			},
+			{
+				"name": "harm",
+				"description": "The character's harm",
+				"type": 4,
+				"min_value": 0,
+				"max_value": 7
+			},
+			{
+				"name": "experience",
+				"description": "The character's experience",
+				"type": 4,
+				"min_value": 0,
+				"max_value": 5
 			}
 		]
 	}
