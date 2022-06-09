@@ -40,6 +40,46 @@
 		]
 	},
 	{
+		"name": "roll",
+		"description": "Rolls some dice",
+		"options": [
+			{
+				"name": "name",
+				"description": "The character to roll for",
+				"type": 3,
+				"required": true
+			},
+			{
+				"name": "roll",
+				"description": "What to roll",
+				"type": 3,
+				"required": "true",
+				"choices": [
+					{
+						"name": "charm",
+						"value": "charm"
+					},
+					{
+						"name": "cool",
+						"value": "cool"
+					},
+					{
+						"name": "sharp",
+						"value": "sharp"
+					},
+					{
+						"name": "tough",
+						"value": "tough"
+					},
+					{
+						"name": "weird",
+						"value": "weird"
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "set",
 		"description": "Sets a character's rating, luck, harm, or experience",
 		"options": [
